@@ -1,0 +1,74 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* adding Background */
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("bc_images3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: large;
+  background-color: rgba(216, 221, 78, 0.5);
+  background-blend-mode: lighten;
+}
+
+header {
+    background-color:#333;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url('bc_images1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+section {
+  padding: 2em 0;
+}
+
+h2 {
+  color: #333;
+}
+
+.project {
+  margin-bottom: 1em;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+.project p{
+    font-style: oblique;
+    text-decoration: red;
+    text-shadow: #333;
+}
+a {
+    color: #cc0b0b;
+    text-decoration: none; 
+}
+
+a:hover {
+    color:#cc0b0b;; 
+}
